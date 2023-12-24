@@ -26,15 +26,18 @@ The repository structure is organized as follows:
 
 ## Usage
 
-### Installation
-
-1. Clone the repository:
-
+### Clone the repository:
 ```bash
 git clone https://github.com/your_username/landscape-to-monet.git
 cd landscape-to-monet
 ```
-2. Architecture
+### Configurations
+Adjust the configuration parameters in `config.py` for specific learning rates, batch sizes, and other settings.
+
+### Checkpoints
+The trained generator models (`genp.pth.tar` and `genl.pth.tar`) and discriminator models (`criticl.pth.tar` and `criticp.pth.tar`) are saved periodically during training.
+
+## Architecture
 ![CycleGAN Architecture](https://miro.medium.com/v2/resize:fit:1400/1*_KxtJIVtZjVaxxl-Yl1vJg.png)
 
 ### Key Features:
@@ -48,16 +51,10 @@ cd landscape-to-monet
 
 Cycle GAN has found extensive use in various applications, including style transfer, image-to-image translation, and artistic image synthesis.
 
-4. Configurations
-Adjust the configuration parameters in `config.py` for specific learning rates, batch sizes, and other settings.
-
-5. Checkpoints
-The trained generator models (`genp.pth.tar` and `genl.pth.tar`) and discriminator models (`criticl.pth.tar` and `criticp.pth.tar`) are saved periodically during training.
-
-6. Results
+## Results
   | Input | Output |  
   |---------|---------|
-  | ![Image 1](https://imgur.com/JCpH2Z9) | ![Image 2](https://imgur.com/HbUkGVL) |
+  | ![Imgur](https://i.imgur.com/JCpH2Z9.jpg) |![Imgur](https://i.imgur.com/HbUkGVL.png) |
 
 This is a result of 15 epochs of training for CycleGAN
 
