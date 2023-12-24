@@ -56,9 +56,9 @@ Cycle GAN has found extensive use in various applications, including style trans
   |---------|---------|
   | ![Imgur](https://i.imgur.com/JCpH2Z9.jpg) |![Imgur](https://i.imgur.com/HbUkGVL.png) |
 
-This is a result of 15 epochs of training for CycleGAN
+This is a result of 15 epochs of training for CycleGAN. Model shows significant improvement as it is trained further.
 
 ## Acknowledgements
-For more details of the architecture, refer to: Zhu, J.-Y., Park, T., Isola, P., & Efros, A. A. (2017). [Unpaired Image-to-Image Translation Using Cycle-Consistent Adversarial Networks] (https://arxiv.org/abs/1703.10593). In Proceedings of the IEEE International Conference on Computer Vision (ICCV).
+For more details of the architecture, refer to: Zhu, J.-Y., Park, T., Isola, P., & Efros, A. A. (2017). [Unpaired Image-to-Image Translation Using Cycle-Consistent Adversarial Networks](https://arxiv.org/abs/1703.10593). In Proceedings of the IEEE International Conference on Computer Vision (ICCV).
 
 
