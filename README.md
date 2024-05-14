@@ -28,7 +28,7 @@ The repository structure is organized as follows:
 
 ### Clone the repository:
 ```bash
-git clone https://github.com/your_username/landscape-to-monet.git
+git clone https://github.com/Anirvan-Krishna/landscape-to-monet.git
 cd landscape-to-monet
 ```
 ### Configurations
